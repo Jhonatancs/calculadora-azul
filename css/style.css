@@ -1,0 +1,78 @@
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.font { font-family: 'Roboto Mono', monospace; }
+
+#calculadora {
+	width: 400px; /* Largura do elemento. */
+	height: 480px; /* Altura do elemento. */
+	margin-top: 60px; /* Margem em relação ao topo do elemento. */
+	margin-left: 480px; /* Margem em relação à esquerda do elemento. */
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posição à esquerda. */
+	background-color: #FFF; /* Cor de fundo. */
+	box-shadow: 14px 14px 20px -19px rgba(59,54,59,1);
+}
+
+#tela-calculadora {
+	width: 400px; /* Largura do elemento. */
+	height: 160px; /* Altura do elemento. */
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posicionar à esquerda. */
+	border: 0; /* Retirar bordas. */
+	outline: none; /* Retira  a borda que aparece quando se clica no input. */
+	overflow: auto;
+	background: linear-gradient(90deg, rgba(84,179,238,1) 0%, rgba(107,204,242,1) 35%, rgba(145,224,242,1) 100%); /* Gradiente de fundo. */
+	color: #FFF; /* Cor da fonte. */
+	font-size: 96px; /* Tamanho da fonte. */
+}
+
+#tela-calculadora:hover {
+	overflow: none;
+}
+
+#fileira-1 {
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posicionamento à esquerda. */
+	margin-top: 160px; /* Margem em relação ao topo do elemento. */
+}
+
+#fileira-2 {
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posicionamento à esquerda. */
+	margin-top: 240px; /* Margem em relação ao topo do elemento. */
+}
+
+#fileira-3 {
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posicionamento à esquerda. */
+	margin-top: 320px; /* Margem em relação ao topo do elemento. */
+}
+
+#fileira-4 {
+	position: fixed; /* Posição fixa em relação ao documento. */
+	float: left; /* Posicionamento à esquerda. */
+	margin-top: 400px; /* Margem em relação ao topo do elemento. */
+}
+
+.botao-calculadora {
+	width: 100px; /* Largura do elemento. */
+	height: 80px; /* Altura do elemento. */
+	float: left; /* Posicionamento à esquerda. */
+	border: 1px solid #52B5F2; /* Retirar bordas. */
+	cursor: pointer; /* Quando o mouse estiver sobre o elemento, adiciona-se um cursor "indicador". */
+	background-color: #0468BF;
+	color: #FFF;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px; /* Tamanho da fonte. */
+	font-weight: 100; /* Peso da fonte. */
+}
+
+.botao-calculadora:hover {
+	color: #FFF;
+	background-color: #22A2F2;
+	box-shadow: inset 14px 14px 20px -19px rgba(59,54,59,1);
+}
